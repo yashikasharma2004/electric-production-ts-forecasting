@@ -95,7 +95,17 @@ Models are evaluated on the held-out test set using three metrics:
 | **MAE** | Mean Absolute Error — lower is better |
 | **R²** | Coefficient of Determination — higher is better (max = 1.0) |
 
-> 📌 Exact numbers will vary slightly per run due to random weight initialization.
+### 🏆 Results
+
+| Rank | Model | RMSE | MAE | R² |
+|------|-------|------|-----|----|
+| 🥇 1st | **ViT** | 3.8859 | 2.8966 | 0.8357 |
+| 🥈 2nd | **LSTM** | 4.2896 | 3.2639 | 0.7998 |
+| 🥉 3rd | **GRU** | 17.1415 | 13.7463 | -2.1972 |
+| 🏅 4th | **SimpleRNN** | 61.9741 | 56.4259 | -40.7924 |
+
+> 💡 **ViT** performed best with R² = 0.836 — explains **83.6% of variance** in electric production.
+> 📌 GRU and SimpleRNN show negative R² — they underfit on this small monthly dataset. LSTM and ViT are the reliable models here.
 
 ---
 
