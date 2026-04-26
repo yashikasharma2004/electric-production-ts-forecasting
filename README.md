@@ -161,9 +161,9 @@ jupyter notebook DL_final.ipynb
 
 | Field | Detail |
 |-------|--------|
-| **Name** | *(Your Name)* |
-| **Roll Number** | *(Your Roll Number)* |
-| **Email** | *(Your Email)* |
+| **Name** | Yashika Sharma |
+| **Roll Number** | 102317089 |
+| **Email** | ysharma1_be23@thapar.edu |
 | **University** | Thapar Institute of Engineering and Technology |
 
 ---
